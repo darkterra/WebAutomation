@@ -1,0 +1,30 @@
+{
+	"civilite": "Mr",
+	"nom": "Young",
+	"prenom": "Jérémy",
+	"email": "darkterra@free.fr",
+	"jj": "24",
+	"mm": "06",
+	"aaaa": "1990",
+	"tel": "0625094011",
+	"adresse": "2 Impasse Sainte-Anne",
+	"cp": "13500",
+	"ville": "Martigues",
+	"pays": "france",
+	"opt_nl": "1",
+	"part_email": "1",
+	"part_sms": "0",
+	"optreglement": "1",
+	"profession": "Ingénieur Devoleppeur",
+	"salaire": {
+		"2015": ["1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1887,03", "1900"],
+		"2016": ["1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1900", "1887,03", "1900"]
+	},
+	"optexact": "1",
+	"optreglement2": "1",
+	"URLS": {
+		"Form1": "http://ops.nrj.fr/NRJ-double-votre-salaire/form.php",
+		"Form2": "http://ops.nrj.fr/NRJ-double-votre-salaire/form_comp.php",
+		"Conf": "http://ops.nrj.fr/NRJ-double-votre-salaire/form_conf.php"
+	}
+}
