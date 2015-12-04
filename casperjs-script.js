@@ -46,7 +46,7 @@ if (casper.cli.has(0)){
         'optreglement': json.optreglement
       }, true);
       
-      this.capture('NRJ.png', undefined);
+      this.capture('NRJ1.png', undefined);
       }
       else {
         this.echo(element + ' not found', 'ERROR');
@@ -66,7 +66,7 @@ if (casper.cli.has(0)){
         'salaire':         json.salaire[date.getFullYear()][date.getMonth() - 1],
         'optexact':        json.optexact,
         'optreglement2':   json.optreglement2
-        }, true);                                        // A MODIFIER EN TRUE !! //
+        }, true);                           // A MODIFIER EN TRUE !! //
         
         this.capture('NRJ2.png', undefined);
       }
@@ -88,7 +88,6 @@ if (casper.cli.has(0)){
       this.echo('KO: ' + this.getCurrentUrl(), 'WARNING').exit();
     });
   });
-    //this.mouse.click('#insc-type:last-child')
     
   casper.run(function() {
       this.echo('Done.').exit();
